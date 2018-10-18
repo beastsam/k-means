@@ -35,10 +35,11 @@ list3 = []
 result = 1
 
 while result:
-	result = tool.circle (df,cent1,cent2,cent3,list1,list2,list3,result)
 	list1.clear
 	list2.clear
 	list3.clear
+	result = tool.circle (df,cent1,cent2,cent3,list1,list2,list3,result)
+	
 
 print("聚类1：前100个数:",list1[:100],'\n')
 print("聚类2：前100个数:",list2[:100],'\n')
